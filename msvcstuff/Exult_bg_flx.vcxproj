@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectName>Exult_bg_flx.h</ProjectName>
+    <ProjectGuid>{0E58490B-9F02-4FB6-8D39-18C9DAD87CCB}</ProjectGuid>
+    <RootNamespace>Exult_bg_flx.h</RootNamespace>
+    <Keyword>MakeFileProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC70.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC70.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>16.0.28916.169</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <NMakeBuildCommandLine>
+nmake /f Makefile.data OutDir="$(OutDir)" build_bg /NOLOGO</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>nmake /f Makefile.data OutDir="$(OutDir)" rebuild_bg /NOLOGO</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>nmake /f Makefile.data OutDir="$(OutDir)" clean_bg /NOLOGO</NMakeCleanCommandLine>
+    <NMakeOutput>$(SolutionDir)\..\data\exult_bg_flx.h</NMakeOutput>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <NMakeBuildCommandLine>
+nmake /f Makefile.data OutDir="$(OutDir)" build_bg /NOLOGO</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>nmake /f Makefile.data OutDir="$(OutDir)" rebuild_bg /NOLOGO</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>nmake /f Makefile.data OutDir="$(OutDir)" clean_bg /NOLOGO</NMakeCleanCommandLine>
+    <NMakeOutput>$(SolutionDir)\..\data\exult_bg_flx.h</NMakeOutput>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="..\data\bg\amulets.shp" />
+    <None Include="..\data\bg\bgfiredoom.shp" />
+    <None Include="..\data\bg\BGmap.shp" />
+    <None Include="..\data\bg\caddellite_helmet.shp" />
+    <None Include="..\data\bg\cleaver.shp" />
+    <None Include="..\data\bg\dupre_face.shp" />
+    <None Include="..\data\bg\faces.shp" />
+    <None Include="..\data\bg\faces2.shp" />
+    <None Include="..\data\bg\fellowshipstaff.shp" />
+    <None Include="..\data\bg\fem_av_face.shp" />
+    <None Include="..\data\bg\flx.in" />
+    <None Include="..\data\bg\gorget.shp" />
+    <None Include="..\data\bg\great_dagger.shp" />
+    <None Include="..\data\bg\greaves.shp" />
+    <None Include="..\data\bg\hoe_of_destruction.shp" />
+    <None Include="..\data\bg\iolo_face.shp" />
+    <None Include="..\data\bg\magicgorget.shp" />
+    <None Include="..\data\bg\magic_boomerang.shp" />
+    <None Include="..\data\bg\male_av_face.shp" />
+    <None Include="..\data\bg\mr_faces.shp" />
+    <None Include="..\data\bg\shamino_face.shp" />
+    <None Include="..\data\bg\spiked_shield.shp" />
+    <None Include="..\Makefile.common" />
+    <None Include="Makefile.data" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\data\bg\defaultkeys.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="expack.vcxproj">
+      <Project>{c9d55119-2372-43a8-a3b2-1bfb6997ae4d}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

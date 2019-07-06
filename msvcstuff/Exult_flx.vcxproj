@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectName>Exult_flx.h</ProjectName>
+    <ProjectGuid>{C8853EC2-3A90-4020-976E-D5FBE12B9265}</ProjectGuid>
+    <RootNamespace>Exult_flx.h</RootNamespace>
+    <Keyword>MakeFileProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC70.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC70.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>16.0.28916.169</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <NMakeBuildCommandLine>nmake /f Makefile.data OutDir="$(OutDir)" build_ex /NOLOGO</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>nmake /f Makefile.data OutDir="$(OutDir)" rebuild_ex /NOLOGO</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>nmake /f Makefile.data OutDir="$(OutDir)" clean_ex /NOLOGO</NMakeCleanCommandLine>
+    <NMakeOutput>$(SolutionDir)\..\data\exult_flx.h</NMakeOutput>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <NMakeBuildCommandLine>nmake /f Makefile.data OutDir="$(OutDir)" build_ex /NOLOGO</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>nmake /f Makefile.data OutDir="$(OutDir)" rebuild_ex /NOLOGO</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>nmake /f Makefile.data OutDir="$(OutDir)" clean_ex /NOLOGO</NMakeCleanCommandLine>
+    <NMakeOutput>$(SolutionDir)\..\data\exult_flx.h</NMakeOutput>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="..\data\credits.txt" />
+    <Text Include="..\data\quotes.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\data\audiooptions.shp" />
+    <None Include="..\data\black_gate.shp" />
+    <None Include="..\data\cancel.shp" />
+    <None Include="..\data\cheating.shp" />
+    <None Include="..\data\exit.shp" />
+    <None Include="..\data\extras.shp" />
+    <None Include="..\data\exult0.pal" />
+    <None Include="..\data\exult_credits.shp" />
+    <None Include="..\data\exult_logo.shp" />
+    <None Include="..\data\exult_quotes.shp" />
+    <None Include="..\data\flx.in" />
+    <None Include="..\data\font.shp" />
+    <None Include="..\data\full_screen.shp" />
+    <None Include="..\data\gamemenu.shp" />
+    <None Include="..\data\hp_bar.shp" />
+    <None Include="..\data\Makefile.am" />
+    <None Include="..\data\meditown.mid" />
+    <None Include="..\data\midi_conversion.shp" />
+    <None Include="..\data\ok.shp" />
+    <None Include="..\data\palette_fades.shp" />
+    <None Include="..\data\play_1st_scene.shp" />
+    <None Include="..\data\play_intro.shp" />
+    <None Include="..\data\pointers.shp" />
+    <None Include="..\data\README" />
+    <None Include="..\data\savegump.shp" />
+    <None Include="..\data\sav_down.shp" />
+    <None Include="..\data\sav_downdown.shp" />
+    <None Include="..\data\sav_selected.shp" />
+    <None Include="..\data\sav_slider.shp" />
+    <None Include="..\data\sav_up.shp" />
+    <None Include="..\data\sav_upup.shp" />
+    <None Include="..\data\scaling_method.shp" />
+    <None Include="..\data\serpent_isle.shp" />
+    <None Include="..\data\setup.shp" />
+    <None Include="..\data\sfx_conversion.shp" />
+    <None Include="..\data\videooptions.shp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="expack.vcxproj">
+      <Project>{c9d55119-2372-43a8-a3b2-1bfb6997ae4d}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

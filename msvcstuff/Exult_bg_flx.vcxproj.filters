@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Shapes">
+      <UniqueIdentifier>{a510856f-6893-4f56-a43e-68f00bf7625a}</UniqueIdentifier>
+      <Extensions>shp</Extensions>
+    </Filter>
+    <Filter Include="Shapes\Faces">
+      <UniqueIdentifier>{7dfe3376-d931-480e-8647-43fe717750ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shapes\Paperdolls">
+      <UniqueIdentifier>{dccac880-e143-4682-9760-10704d0560f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shapes\Multiracial">
+      <UniqueIdentifier>{48e00fb3-0023-4663-995b-6f12b46fd265}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Misc">
+      <UniqueIdentifier>{db1ca38e-2a4a-44c2-ba56-db1eaa69ccd9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\data\bg\BGmap.shp">
+      <Filter>Shapes</Filter>
+    </None>
+    <None Include="..\data\bg\dupre_face.shp">
+      <Filter>Shapes\Faces</Filter>
+    </None>
+    <None Include="..\data\bg\faces.shp">
+      <Filter>Shapes\Faces</Filter>
+    </None>
+    <None Include="..\data\bg\faces2.shp">
+      <Filter>Shapes\Faces</Filter>
+    </None>
+    <None Include="..\data\bg\fem_av_face.shp">
+      <Filter>Shapes\Faces</Filter>
+    </None>
+    <None Include="..\data\bg\iolo_face.shp">
+      <Filter>Shapes\Faces</Filter>
+    </None>
+    <None Include="..\data\bg\male_av_face.shp">
+      <Filter>Shapes\Faces</Filter>
+    </None>
+    <None Include="..\data\bg\shamino_face.shp">
+      <Filter>Shapes\Faces</Filter>
+    </None>
+    <None Include="..\data\bg\amulets.shp">
+      <Filter>Shapes\Paperdolls</Filter>
+    </None>
+    <None Include="..\data\bg\bgfiredoom.shp">
+      <Filter>Shapes\Paperdolls</Filter>
+    </None>
+    <None Include="..\data\bg\caddellite_helmet.shp">
+      <Filter>Shapes\Paperdolls</Filter>
+    </None>
+    <None Include="..\data\bg\cleaver.shp">
+      <Filter>Shapes\Paperdolls</Filter>
+    </None>
+    <None Include="..\data\bg\fellowshipstaff.shp">
+      <Filter>Shapes\Paperdolls</Filter>
+    </None>
+    <None Include="..\data\bg\gorget.shp">
+      <Filter>Shapes\Paperdolls</Filter>
+    </None>
+    <None Include="..\data\bg\great_dagger.shp">
+      <Filter>Shapes\Paperdolls</Filter>
+    </None>
+    <None Include="..\data\bg\greaves.shp">
+      <Filter>Shapes\Paperdolls</Filter>
+    </None>
+    <None Include="..\data\bg\hoe_of_destruction.shp">
+      <Filter>Shapes\Paperdolls</Filter>
+    </None>
+    <None Include="..\data\bg\magic_boomerang.shp">
+      <Filter>Shapes\Paperdolls</Filter>
+    </None>
+    <None Include="..\data\bg\magicgorget.shp">
+      <Filter>Shapes\Paperdolls</Filter>
+    </None>
+    <None Include="..\data\bg\spiked_shield.shp">
+      <Filter>Shapes\Paperdolls</Filter>
+    </None>
+    <None Include="..\data\bg\mr_faces.shp">
+      <Filter>Shapes\Multiracial</Filter>
+    </None>
+    <None Include="..\data\bg\flx.in" />
+    <None Include="..\Makefile.common" />
+    <None Include="Makefile.data" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\data\bg\defaultkeys.txt">
+      <Filter>Misc</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Misc">
+      <UniqueIdentifier>{37f16f12-304e-4fa5-9af2-e3eefb81d7e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shapes">
+      <UniqueIdentifier>{d9a58fd4-21c6-4495-835e-1442b955ebb7}</UniqueIdentifier>
+      <Extensions>shp</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\data\credits.txt">
+      <Filter>Misc</Filter>
+    </Text>
+    <Text Include="..\data\quotes.txt">
+      <Filter>Misc</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\data\exult0.pal">
+      <Filter>Misc</Filter>
+    </None>
+    <None Include="..\data\meditown.mid">
+      <Filter>Misc</Filter>
+    </None>
+    <None Include="..\data\audiooptions.shp">
+      <Filter>Shapes</Filter>
+    </None>
+    <None Include="..\data\black_gate.shp">
+      <Filter>Shapes</Filter>
+    </None>
+    <None Include="..\data\cancel.shp">
+      <Filter>Shapes</Filter>
+    </None>
+    <None Include="..\data\cheating.shp">
+      <Filter>Shapes</Filter>
+    </None>
+    <None Include="..\data\exit.shp">
+      <Filter>Shapes</Filter>
+    </None>
+    <None Include="..\data\extras.shp">
+      <Filter>Shapes</Filter>
+    </None>
+    <None Include="..\data\exult_credits.shp">
+      <Filter>Shapes</Filter>
+    </None>
+    <None Include="..\data\exult_logo.shp">
+      <Filter>Shapes</Filter>
+    </None>
+    <None Include="..\data\exult_quotes.shp">
+      <Filter>Shapes</Filter>
+    </None>
+    <None Include="..\data\font.shp">
+      <Filter>Shapes</Filter>
+    </None>
+    <None Include="..\data\full_screen.shp">
+      <Filter>Shapes</Filter>
+    </None>
+    <None Include="..\data\gamemenu.shp">
+      <Filter>Shapes</Filter>
+    </None>
+    <None Include="..\data\hp_bar.shp">
+      <Filter>Shapes</Filter>
+    </None>
+    <None Include="..\data\midi_conversion.shp">
+      <Filter>Shapes</Filter>
+    </None>
+    <None Include="..\data\ok.shp">
+      <Filter>Shapes</Filter>
+    </None>
+    <None Include="..\data\palette_fades.shp">
+      <Filter>Shapes</Filter>
+    </None>
+    <None Include="..\data\play_1st_scene.shp">
+      <Filter>Shapes</Filter>
+    </None>
+    <None Include="..\data\play_intro.shp">
+      <Filter>Shapes</Filter>
+    </None>
+    <None Include="..\data\pointers.shp">
+      <Filter>Shapes</Filter>
+    </None>
+    <None Include="..\data\sav_down.shp">
+      <Filter>Shapes</Filter>
+    </None>
+    <None Include="..\data\sav_downdown.shp">
+      <Filter>Shapes</Filter>
+    </None>
+    <None Include="..\data\sav_selected.shp">
+      <Filter>Shapes</Filter>
+    </None>
+    <None Include="..\data\sav_slider.shp">
+      <Filter>Shapes</Filter>
+    </None>
+    <None Include="..\data\sav_up.shp">
+      <Filter>Shapes</Filter>
+    </None>
+    <None Include="..\data\sav_upup.shp">
+      <Filter>Shapes</Filter>
+    </None>
+    <None Include="..\data\savegump.shp">
+      <Filter>Shapes</Filter>
+    </None>
+    <None Include="..\data\scaling_method.shp">
+      <Filter>Shapes</Filter>
+    </None>
+    <None Include="..\data\serpent_isle.shp">
+      <Filter>Shapes</Filter>
+    </None>
+    <None Include="..\data\setup.shp">
+      <Filter>Shapes</Filter>
+    </None>
+    <None Include="..\data\sfx_conversion.shp">
+      <Filter>Shapes</Filter>
+    </None>
+    <None Include="..\data\videooptions.shp">
+      <Filter>Shapes</Filter>
+    </None>
+    <None Include="..\data\flx.in" />
+    <None Include="..\data\Makefile.am" />
+    <None Include="..\data\README" />
+  </ItemGroup>
+</Project>
