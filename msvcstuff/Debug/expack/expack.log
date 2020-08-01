@@ -1,0 +1,4 @@
+﻿  msvc_kludges.cc
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1933,1): warning C4005:  'snprintf': macro redefinition
+C:\Users\Dave\Documents\code\exult\msvcstuff\msvc_kludges.h(168): message :  see previous definition of 'snprintf'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1935,1): error C1189:  #error:  Macro definition of snprintf conflicts with Standard Library function declaration

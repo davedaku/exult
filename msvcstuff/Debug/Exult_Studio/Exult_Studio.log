@@ -1,0 +1,138 @@
+﻿  cl : Command line warning D9035 : option 'Gm' has been deprecated and will be removed in a future release
+  ucsymtbl.cc
+  weaponinf.cc
+  warminf.cc
+  vgafile.cc
+C:\Users\Dave\Documents\code\exult\usecode\ucsymtbl.cc(24,10): error C1083:  Cannot open include file: 'utils.h': No such file or directory
+C:\Users\Dave\Documents\code\exult\usecode\ucsymtbl.cc(24,10): error C1083: c1xx: fatal error C1083: Cannot open source file: '..\shapes\weaponinf.cc': No such file or directory
+C:\Users\Dave\Documents\code\exult\usecode\ucsymtbl.cc(24,10): error C1083: c1xx: fatal error C1083: Cannot open source file: '..\shapes\warminf.cc': No such file or directory
+  u7drag.cc
+C:\Users\Dave\Documents\code\exult\shapes\vgafile.cc(28,10): error C1083:  Cannot open include file: 'utils.h': No such file or directory
+  shapewrite.cc
+C:\Users\Dave\Documents\code\exult\shapes\u7drag.cc(31,10): error C1083:  Cannot open include file: 'utils.h': No such file or directory
+  shapevga.cc
+C:\Users\Dave\Documents\code\exult\shapes\shapevga.h(30,10): error C1083:  Cannot open include file: 'fnames.h': No such file or directory
+  shapeinf.cc
+C:\Users\Dave\Documents\code\exult\shapes\shapevga.h(30,10): error C1083:  Cannot open include file: 'fnames.h': No such file or directory
+  sfxinf.cc
+  pngio.cc
+C:\Users\Dave\Documents\code\exult\shapes\shapeinf.h(34,10): error C1083:  Cannot open include file: 'utils.h': No such file or directory
+C:\Users\Dave\Documents\code\exult\shapes\shapeinf.h(34,10): error C1083: c1xx: fatal error C1083: Cannot open source file: '..\shapes\sfxinf.cc': No such file or directory
+  objdollinf.cc
+  npcdollinf.cc
+  monstinf.cc
+  items.cc
+C:\Users\Dave\Documents\code\exult\shapes\pngio.cc(35,10): error C1083:  Cannot open include file: 'png.h': No such file or directory
+C:\Users\Dave\Documents\code\exult\shapes\pngio.cc(35,10): error C1083: c1xx: fatal error C1083: Cannot open source file: '..\shapes\objdollinf.cc': No such file or directory
+C:\Users\Dave\Documents\code\exult\shapes\pngio.cc(35,10): error C1083: c1xx: fatal error C1083: Cannot open source file: '..\shapes\npcdollinf.cc': No such file or directory
+C:\Users\Dave\Documents\code\exult\shapes\pngio.cc(35,10): error C1083: c1xx: fatal error C1083: Cannot open source file: '..\shapes\monstinf.cc': No such file or directory
+  frpowers.cc
+  frnameinf.cc
+  fontvga.cc
+C:\Users\Dave\Documents\code\exult\shapes\items.cc(35,10): error C1083:  Cannot open include file: 'utils.h': No such file or directory
+C:\Users\Dave\Documents\code\exult\shapes\items.cc(35,10): error C1083: c1xx: fatal error C1083: Cannot open source file: '..\shapes\frpowers.cc': No such file or directory
+C:\Users\Dave\Documents\code\exult\shapes\items.cc(35,10): error C1083: c1xx: fatal error C1083: Cannot open source file: '..\shapes\frnameinf.cc': No such file or directory
+  fontgen.cc
+C:\Users\Dave\Documents\code\exult\shapes\font.h(20,10): error C1083:  Cannot open include file: 'hash_utils.h': No such file or directory
+  font.cc
+C:\Users\Dave\Documents\code\exult\shapes\vgafile.h(29,10): error C1083:  Cannot open include file: 'common_types.h': No such file or directory
+  expinf.cc
+  Generating Code...
+  Compiling...
+  effhpinf.cc
+  continf.cc
+  bodyinf.cc
+  armorinf.cc
+  aniinf.cc
+  ammoinf.cc
+  servewin32.cc
+  servemsg.cc
+C:\Users\Dave\Documents\code\exult\shapes\font.cc(21,10): error C1083:  Cannot open include file: 'U7file.h': No such file or directory
+C:\Users\Dave\Documents\code\exult\shapes\font.cc(21,10): error C1083: c1xx: fatal error C1083: Cannot open source file: '..\shapes\expinf.cc': No such file or directory
+C:\Users\Dave\Documents\code\exult\shapes\font.cc(21,10): error C1083: c1xx: fatal error C1083: Cannot open source file: '..\shapes\effhpinf.cc': No such file or directory
+C:\Users\Dave\Documents\code\exult\shapes\font.cc(21,10): error C1083: c1xx: fatal error C1083: Cannot open source file: '..\shapes\continf.cc': No such file or directory
+C:\Users\Dave\Documents\code\exult\shapes\font.cc(21,10): error C1083: c1xx: fatal error C1083: Cannot open source file: '..\shapes\bodyinf.cc': No such file or directory
+C:\Users\Dave\Documents\code\exult\shapes\font.cc(21,10): error C1083: c1xx: fatal error C1083: Cannot open source file: '..\shapes\armorinf.cc': No such file or directory
+C:\Users\Dave\Documents\code\exult\shapes\font.cc(21,10): error C1083: c1xx: fatal error C1083: Cannot open source file: '..\shapes\aniinf.cc': No such file or directory
+C:\Users\Dave\Documents\code\exult\shapes\font.cc(21,10): error C1083: c1xx: fatal error C1083: Cannot open source file: '..\shapes\ammoinf.cc': No such file or directory
+  objserial.cc
+C:\Users\Dave\Documents\code\exult\server\servemsg.cc(30,10): error C1083:  Cannot open include file: 'unistd.h': No such file or directory
+  ucbrowse.cc
+C:\Users\Dave\Documents\code\exult\server\objserial.cc(29,10): error C1083:  Cannot open include file: 'utils.h': No such file or directory
+  studio.cc
+C:\Users\Dave\Documents\code\exult\mapedit\studio.h(28,10): error C1083:  Cannot open include file: 'gtk/gtk.h': No such file or directory
+  shapelst.cc
+C:\Users\Dave\Documents\code\exult\mapedit\studio.cc(26,10): error C1083:  Cannot open include file: 'dirent.h': No such file or directory
+  shapegroup.cc
+C:\Users\Dave\Documents\code\exult\mapedit\shapelst.cc(30,10): error C1083:  Cannot open include file: 'Windrag.h': No such file or directory
+  shapefile.cc
+C:\Users\Dave\Documents\code\exult\mapedit\shapegroup.cc(32,10): error C1083:  Cannot open include file: 'gdk/gdkkeysyms.h': No such file or directory
+  shapeedit.cc
+C:\Users\Dave\Documents\code\exult\mapedit\shapefile.h(31,10): error C1083:  Cannot open include file: 'ignore_unused_variable_warning.h': No such file or directory
+  shapedraw.cc
+C:\Users\Dave\Documents\code\exult\mapedit\studio.h(28,10): error C1083:  Cannot open include file: 'gtk/gtk.h': No such file or directory
+  paledit.cc
+C:\Users\Dave\Documents\code\exult\mapedit\shapedraw.h(33,10): error C1083:  Cannot open include file: 'gtk/gtk.h': No such file or directory
+  objedit.cc
+C:\Users\Dave\Documents\code\exult\mapedit\paledit.cc(34,10): error C1083:  Cannot open include file: 'gtk/gtk.h': No such file or directory
+  objbrowse.cc
+C:\Users\Dave\Documents\code\exult\mapedit\studio.h(28,10): error C1083:  Cannot open include file: 'gtk/gtk.h': No such file or directory
+  npclst.cc
+C:\Users\Dave\Documents\code\exult\mapedit\objbrowse.cc(6,10): error C1083:  Cannot open include file: 'gdk/gdkkeysyms.h': No such file or directory
+  Generating Code...
+  Compiling...
+  npcedit.cc
+C:\Users\Dave\Documents\code\exult\mapedit\npclst.cc(30,10): error C1083:  Cannot open include file: 'Windrag.h': No such file or directory
+  maps.cc
+C:\Users\Dave\Documents\code\exult\mapedit\studio.h(28,10): error C1083:  Cannot open include file: 'gtk/gtk.h': No such file or directory
+  locator.cc
+C:\Users\Dave\Documents\code\exult\mapedit\maps.cc(34,10): error C1083:  Cannot open include file: 'gtk/gtkradiomenuitem.h': No such file or directory
+  exult_studio.cc
+C:\Users\Dave\Documents\code\exult\mapedit\studio.h(28,10): error C1083:  Cannot open include file: 'gtk/gtk.h': No such file or directory
+  execbox.cc
+C:\Users\Dave\Documents\code\exult\mapedit\exult_studio.cc(6,10): error C1083:  Cannot open include file: 'utils.h': No such file or directory
+  eggedit.cc
+C:\Users\Dave\Documents\code\exult\mapedit\execbox.h(33,10): error C1083:  Cannot open include file: 'gtk/gtk.h': No such file or directory
+  contedit.cc
+C:\Users\Dave\Documents\code\exult\mapedit\studio.h(28,10): error C1083:  Cannot open include file: 'gtk/gtk.h': No such file or directory
+  compile.cc
+C:\Users\Dave\Documents\code\exult\mapedit\studio.h(28,10): error C1083:  Cannot open include file: 'gtk/gtk.h': No such file or directory
+  combo.cc
+C:\Users\Dave\Documents\code\exult\mapedit\studio.h(28,10): error C1083:  Cannot open include file: 'gtk/gtk.h': No such file or directory
+  chunklst.cc
+C:\Users\Dave\Documents\code\exult\mapedit\combo.cc(29,10): error C1083:  Cannot open include file: 'gdk/gdkkeysyms.h': No such file or directory
+  bargeedit.cc
+C:\Users\Dave\Documents\code\exult\mapedit\chunklst.cc(30,10): error C1083:  Cannot open include file: 'Windrag.h': No such file or directory
+  imagebuf.cc
+C:\Users\Dave\Documents\code\exult\mapedit\studio.h(28,10): error C1083:  Cannot open include file: 'gtk/gtk.h': No such file or directory
+  ibuf8.cc
+C:\Users\Dave\Documents\code\exult\imagewin\imagebuf.h(29,10): error C1083:  Cannot open include file: 'ignore_unused_variable_warning.h': No such file or directory
+  modmgr.cc
+C:\Users\Dave\Documents\code\exult\imagewin\imagebuf.h(29,10): error C1083:  Cannot open include file: 'ignore_unused_variable_warning.h': No such file or directory
+  utils.cc
+C:\Users\Dave\Documents\code\exult\gamemgr\modmgr.h(26,10): error C1083:  Cannot open include file: 'exult_constants.h': No such file or directory
+  U7obj.cc
+C:\Users\Dave\Documents\code\exult\files\utils.cc(35,10): error C1083:  Cannot open include file: 'unistd.h': No such file or directory
+  U7fileman.cc
+C:\Users\Dave\Documents\code\exult\files\U7obj.h(28,10): error C1083:  Cannot open include file: 'common_types.h': No such file or directory
+  U7file.cc
+  Table.cc
+C:\Users\Dave\Documents\code\exult\files\U7obj.h(28,10): error C1083:  Cannot open include file: 'common_types.h': No such file or directory
+  msgfile.cc
+C:\Users\Dave\Documents\code\exult\files\U7obj.h(28,10): error C1083:  Cannot open include file: 'common_types.h': No such file or directory
+  Generating Code...
+  Compiling...
+  listfiles.cc
+C:\Users\Dave\Documents\code\exult\files\utils.h(31,10): error C1083:  Cannot open include file: 'dirent.h': No such file or directory
+  IFF.cc
+C:\Users\Dave\Documents\code\exult\files\utils.h(31,10): error C1083:  Cannot open include file: 'dirent.h': No such file or directory
+  Flex.cc
+C:\Users\Dave\Documents\code\exult\files\IFF.h(27,10): error C1083:  Cannot open include file: 'common_types.h': No such file or directory
+  Flat.cc
+C:\Users\Dave\Documents\code\exult\files\Flex.h(28,10): error C1083:  Cannot open include file: 'common_types.h': No such file or directory
+  XMLEntity.cc
+C:\Users\Dave\Documents\code\exult\files\U7obj.h(28,10): error C1083:  Cannot open include file: 'common_types.h': No such file or directory
+  Configuration.cc
+C:\Users\Dave\Documents\code\exult\conf\XMLEntity.cc(24,10): error C1083:  Cannot open include file: 'common_types.h': No such file or directory
+  Generating Code...
+C:\Users\Dave\Documents\code\exult\conf\Configuration.cc(23,10): error C1083:  Cannot open include file: 'common_types.h': No such file or directory

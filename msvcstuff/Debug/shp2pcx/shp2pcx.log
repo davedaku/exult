@@ -1,0 +1,2 @@
+﻿  shp2pcx.cc
+C:\Users\Dave\Documents\code\exult\MSVCStuff\msvc_kludges.h(162,1): error C1189:  #error:  Unknown Version of MSVC being used. Edit "msvc_include.h" and add your version

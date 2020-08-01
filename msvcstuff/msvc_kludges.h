@@ -151,16 +151,16 @@ using std::strtol;
 //
 // Hacks for MSVC 7
 //
-#elif (_MSC_VER == 1300 || _MSC_VER == 1400)
+//#elif (_MSC_VER == 1300 || _MSC_VER == 1400)
 
 #include <cctype>
 #define HAVE_SYS_STAT_H
 #define inline __forceinline
-
-#else
-
-#error Unknown Version of MSVC being used. Edit "msvc_include.h" and add your version
-
+//
+//#else
+//
+//#error Unknown Version of MSVC being used. Edit "msvc_kludges.h" and add your version
+//
 #endif
 
 // We've got snprintf

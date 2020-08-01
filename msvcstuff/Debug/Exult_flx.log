@@ -1,0 +1,7 @@
+﻿  
+  Microsoft (R) Program Maintenance Utility Version 14.21.27702.2
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+NMAKE : fatal error U1073: don't know how to make 'tools/expack.o'
+  Stop.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(44,5): error MSB3073: The command "nmake /f Makefile.data OutDir="C:\Users\Dave\Documents\code\exult\msvcstuff\Debug\" build_ex /NOLOGO" exited with code 2.
